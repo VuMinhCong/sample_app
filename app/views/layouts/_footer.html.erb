@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= link_to t(".book"), Settings.url.rails_tutorial_url %>
+    <%= t(".by") %>
+    <%= link_to t(".author"), Settings.url.author_url %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t(".news"), Settings.url.rails_new_url %></li>
+    </ul>
+  </nav>
+</footer>

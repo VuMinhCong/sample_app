@@ -7,6 +7,10 @@
 # Ignore bundler config.
 /.bundle
 
+# Ignore the default SQLite database.
+/db/*.mysql2
+/db/*.mysql2-*
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -34,3 +38,11 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+.framgia-ci-reports/
+.framgia-ci-result.temp.yml
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+
+database.yml
