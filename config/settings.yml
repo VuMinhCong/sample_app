@@ -8,3 +8,10 @@ url:
   rails_screencasts_url: "https://screencasts.railstutorial.org/"
   learn_enough_url: "https://www.learnenough.com/"
   author_url: "https://www.michaelhartl.com/"
+regex:
+  email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+validates:
+  name_max_length: 30
+  email_min_length: 20
+  email_max_length: 255
+  password_min_length: 6
