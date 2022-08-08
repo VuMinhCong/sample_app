@@ -1,6 +1,9 @@
 vi:
   base_title: "Ruby on Rails Tutorial Sample App"
   sample_app: "Sample App"
+  welcome: "Chào mừng đến với Sample App"
+  not_found: "Không tìm thấy."
+  signup_fail: "Có lỗi xảy ra. Vui lòng thử lại."
   layouts:
     header:
       home: "Trang chủ"
@@ -49,3 +52,12 @@ vi:
     new:
       signup: "Đăng ký"
       intro: "Trang đăng ký cho người dùng mới."
+      name: "Tên"
+      email: "Địa chỉ email"
+      password: "Password"
+      password_confirmation: "Nhập lại password"
+      create: "Đăng ký tài khoản"
+  shared:
+    error_messages:
+      intro: "Biểu mẫu có"
+      error: "lỗi"
