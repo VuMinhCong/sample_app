@@ -9,14 +9,20 @@ en:
     header:
       home: "Home"
       help: "Help"
+      users: "Users"
       login: "Log in"
-      app: "sample app"
+      logout: "Log out"
+      profile: "Profile"
+      account: "Account"
+      settings: "Settings"
+      app: "Sample App"
     footer:
       about: "About"
       contact: "Contact"
       news: "News"
       by: "by"
       author: "Michael Hartl"
+      tutor: "Ruby on Rails Tutorial"
       book: "Ruby on Rails Tutorial"
   static_pages:
     home:
@@ -62,3 +68,12 @@ en:
     error_messages:
       intro: "The form contains"
       error: "error"
+  sessions:
+    new:
+      login: "Log in"
+      email: "Email"
+      password: "Password"
+      signup: "Sign up now!"
+      new_user: "New user?"
+    create:
+      invalid_email_password_combination: "Invalid email/password combination"

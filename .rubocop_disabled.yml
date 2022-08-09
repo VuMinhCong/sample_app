@@ -87,3 +87,11 @@ Rails/SkipsModelValidations:
 
 Rails/UniqueValidationWithoutIndex:
   Enabled: false
+Rails/UniqueValidationWithoutIndex:
+  Enabled: false
+
+Rails/UniqueValidationWithoutIndex:
+  Enabled: false
+
+Rails/UniqueValidationWithoutIndex:
+  Enabled: false
