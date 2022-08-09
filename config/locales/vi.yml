@@ -8,7 +8,12 @@ vi:
     header:
       home: "Trang chủ"
       help: "Hỗ trợ"
+      users: "Người dùng"
       login: "Đăng nhập"
+      logout: "Đăng xuất"
+      profile: "Hồ sơ"
+      account: "Tài khoản"
+      settings: "Cài đặt"
       app: "Sample App"
     footer:
       about: "Giới thiệu"
@@ -16,6 +21,7 @@ vi:
       news: "Tin tức"
       by: "viết bởi"
       author: "Michael Hartl"
+      tutor: "Hướng dẫn Ruby on Rails"
       book: "Hướng dẫn Ruby on Rails"
   static_pages:
     home:
@@ -61,3 +67,12 @@ vi:
     error_messages:
       intro: "Biểu mẫu có"
       error: "lỗi"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      email: "Địa chỉ email"
+      password: "Password"
+      signup: "Đăng ký ngay!"
+      new_user: "Người dùng mới?"
+    create:
+      invalid_email_password_combination: "Email và password không trùng khớp"
