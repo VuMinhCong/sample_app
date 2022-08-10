@@ -15,3 +15,8 @@ validates:
   email_min_length: 20
   email_max_length: 255
   password_min_length: 6
+paginate:
+  limit: 20
+avatar:
+  size_default: 80
+  size: 50
