@@ -58,11 +58,31 @@ vi:
     new:
       signup: "Đăng ký"
       intro: "Trang đăng ký cho người dùng mới."
+      create: "Đăng ký tài khoản"
+    update:
+      update_success: "Cập nhật hồ sơ thành công"
+      update_fail: "Cập nhật hồ sơ thất bại"
+    form:
       name: "Tên"
       email: "Địa chỉ email"
       password: "Password"
       password_confirmation: "Nhập lại password"
-      create: "Đăng ký tài khoản"
+    edit:
+      edit: "Chỉnh sửa thông tin"
+      save_changes: "Lưu thay đổi"
+      intro: "Chỉnh sửa thông tin"
+      danger: "Hãy đăng nhập"
+      incorrect_user: "Bạn không thể  sửa thông tin của người khác"
+      change: "Thay đổi"
+    index:
+      index_title: "Tất cả người dùng"
+    destroy:
+      user_deleted: "Đã xóa người dùng"
+      delete_fail: "Xóa người dùng thất bại"
+      incorrect_admin: "Bạn không phải là admin"
+    user:
+      delete: "xóa"
+      comfirm: "Bạn chắc chắn muốn xóa ?"
   shared:
     error_messages:
       intro: "Biểu mẫu có"
