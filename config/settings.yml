@@ -20,3 +20,5 @@ paginate:
 avatar:
   size_default: 80
   size: 50
+password:
+  expired: 2

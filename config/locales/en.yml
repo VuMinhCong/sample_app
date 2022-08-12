@@ -91,6 +91,27 @@ en:
       users_success: "Welcome to the Sample App!"
       users_unsuccess: "Registration failed"
       mail_notice: "Please check your email to complete the registration"
+  password_resets:
+    new:
+      heading: "Forgot password"
+      email: "Email"
+      submit: "Submit"
+    create:
+      send_email: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+    edit:
+      not_found: "Account not found"
+      edit_pass_title: "Reset password"
+      password: "Password"
+      password_confirmation: "Password confirmation"
+      submit: "Update password"
+      expired: "Password reset has expired."
+      alert_user: "The account has not been activated or the password reset time has expired"
+    update:
+      empty: "can't be empty"
+      reset_pass: "Password has been reset."
+      not_reset_pass: "Can't reset password."
+      exprired : "Password reset has expired."
   shared:
     error_messages:
       intro: "The form contains"
@@ -105,6 +126,11 @@ en:
       welcome_to: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
       hi: "Hi"
+    password_reset:
+      password_reset: "Password reset"
+      click: "To reset your password click the link below:"
+      link: "Reset password"
+      pass_reset_content: "This link will expire in two hours. If you did not request your password to be reset, please ignore this email and your password will stay as it is."
   sessions:
     new:
       login: "Log in"
@@ -113,6 +139,7 @@ en:
       signup: "Sign up now!"
       new_user: "New user?"
       remember_me: "Remember me on this computer"
+      forgot_password: "(forgot password)"
     create:
       invalid_email_password_combination: "Invalid email/password combination"
       account_not_actived: "Account not activated. Check your email for the activation link."
