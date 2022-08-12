@@ -87,10 +87,24 @@ en:
     user:
       delete: "delete"
       comfirm : "You sure?"
+    create:
+      users_success: "Welcome to the Sample App!"
+      users_unsuccess: "Registration failed"
+      mail_notice: "Please check your email to complete the registration"
   shared:
     error_messages:
       intro: "The form contains"
       error: "error"
+  account_activation:
+    edit:
+      user_success: "Account activated"
+      user_unsuccess: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      account_activation: "Account activation"
+      welcome_to: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      hi: "Hi"
   sessions:
     new:
       login: "Log in"
@@ -101,3 +115,4 @@ en:
       remember_me: "Remember me on this computer"
     create:
       invalid_email_password_combination: "Invalid email/password combination"
+      account_not_actived: "Account not activated. Check your email for the activation link."

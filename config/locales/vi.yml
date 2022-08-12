@@ -83,10 +83,23 @@ vi:
     user:
       delete: "xóa"
       comfirm: "Bạn chắc chắn muốn xóa ?"
+    create:
+      users_unsuccess: "Đăng ký không thành công"
+      mail_notice: "Hãy kiểm tra mail để  hoàn tất đăng ký"
   shared:
     error_messages:
       intro: "Biểu mẫu có"
       error: "lỗi"
+  account_activations:
+    edit:
+      user_success: "Tài khoản đã được kích hoạt"
+      user_unsuccess: "Kích họat không hợp lệ"
+  user_mailer:
+    account_activation:
+      account_activation: "Kích hoạt tài khoản"
+      welcome_to: "Chào mừng bạn đến với Sample App, click vào link bên dưới để kích hoạt tài khoản"
+      activate: "Kích hoạt"
+      hi: "Chào"
   sessions:
     new:
       login: "Đăng nhập"
@@ -97,3 +110,4 @@ vi:
       remember_me: "Nhớ tôi trên máy tính này"
     create:
       invalid_email_password_combination: "Email và password không trùng khớp"
+      account_not_actived: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
