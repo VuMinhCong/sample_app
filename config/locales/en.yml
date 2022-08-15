@@ -34,6 +34,8 @@ en:
       app: "sample application"
       vn: "VietNamese"
       el: "English"
+      micropost_feed: "Micropost Feed"
+      rails_href: "Ruby on Rails Tutorial"
     help:
       heading: "Help"
       intro: "Get help on the Ruby on Rails Tutorial at the"
@@ -116,6 +118,13 @@ en:
     error_messages:
       intro: "The form contains"
       error: "error"
+    micropost_form:
+      new_micropost: "Compose new micropost..."
+      post: "Post"
+      large_img_error: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view_my_profile: "View my profile"
+      micropost: "micropost"
   account_activation:
     edit:
       user_success: "Account activated"
@@ -143,3 +152,25 @@ en:
     create:
       invalid_email_password_combination: "Invalid email/password combination"
       account_not_actived: "Account not activated. Check your email for the activation link."
+  microposts:
+    create:
+      not_log_in: "logged_in_user"
+      save_success: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      not_micropost_deleted: "Microposts cannot be deleted"
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      delete: "delete"
+      you_sure: "You sure?"
+    find_micropost:
+      find_micropost_fail: "Cannot find micropost"
+activerecord:
+  errors:
+    models:
+      micropost:
+        attributes:
+          image:
+            wrong_format: "Must be a valid image format"
+            too_big: "Image size is too big"
