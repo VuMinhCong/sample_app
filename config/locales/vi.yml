@@ -86,6 +86,27 @@ vi:
     create:
       users_unsuccess: "Đăng ký không thành công"
       mail_notice: "Hãy kiểm tra mail để  hoàn tất đăng ký"
+    password_resets:
+    new:
+      heading: "Quên mật khẩu"
+      email: "Địa chỉ email"
+      submit: "Tạo mật khẩu mới"
+    create:
+      send_email: "Kiểm tra email để đặt lại mật khẩu"
+      email_not_found: "Không tìm thấy email"
+    edit:
+      not_found: "Không tìm thấy tài khoản"
+      edit_pass_title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
+      submit: "Cập nhật lại mật khẩu"
+      expired: "Hết thời gian đặt lại mật khẩu"
+      alert_user: "Tài khoản chưa được kích hoạt hoặc đã hết thời gian đặt lại mật khẩu"
+    update:
+      empty: "không được để  trống"
+      reset_pass: "Mật khẩu đã được đặt lại."
+      not_reset_pass: "Không thể  đặt lại mật khẩu"
+      exprired: "Đã hết thời gian đặt lại mật khẩu"
   shared:
     error_messages:
       intro: "Biểu mẫu có"
@@ -100,6 +121,11 @@ vi:
       welcome_to: "Chào mừng bạn đến với Sample App, click vào link bên dưới để kích hoạt tài khoản"
       activate: "Kích hoạt"
       hi: "Chào"
+    password_reset:
+      password_reset: "Đặt lại mật khẩu"
+      click: "Để đặt lại mật khẩu, hãy nhấn vào link bên dưới"
+      link: "Đặt lại mật khẩu"
+      pass_reset_content: "Liên kết này sẽ hết hạn trong hai giờ. Nếu bạn không yêu cầu mật khẩu của mình được đặt lại, vui lòng bỏ qua email này và mật khẩu của bạn sẽ không bị thay đổi"
   sessions:
     new:
       login: "Đăng nhập"
@@ -108,6 +134,7 @@ vi:
       signup: "Đăng ký ngay!"
       new_user: "Người dùng mới?"
       remember_me: "Nhớ tôi trên máy tính này"
+      forgot_password: "(quên mật khẩu)"
     create:
       invalid_email_password_combination: "Email và password không trùng khớp"
       account_not_actived: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
