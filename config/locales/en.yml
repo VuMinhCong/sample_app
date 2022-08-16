@@ -93,6 +93,17 @@ en:
       users_success: "Welcome to the Sample App!"
       users_unsuccess: "Registration failed"
       mail_notice: "Please check your email to complete the registration"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      microposts: "Microposts"
+      view_profile: "View my profile"
   password_resets:
     new:
       heading: "Forgot password"
@@ -125,6 +136,9 @@ en:
     user_info:
       view_my_profile: "View my profile"
       micropost: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
   account_activation:
     edit:
       user_success: "Account activated"
@@ -166,6 +180,11 @@ en:
       you_sure: "You sure?"
     find_micropost:
       find_micropost_fail: "Cannot find micropost"
+  relationships:
+    find_user_for_create:
+      not_found: "User not found"
+    find_user_for_destroy:
+      not_found: "User not found"
 activerecord:
   errors:
     models:
