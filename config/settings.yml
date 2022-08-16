@@ -15,6 +15,7 @@ validates:
   email_min_length: 20
   email_max_length: 255
   password_min_length: 6
+  content_max_length: 140
 paginate:
   limit: 20
 avatar:
@@ -22,3 +23,12 @@ avatar:
   size: 50
 password:
   expired: 2
+micropost:
+  content_max: 140
+  accept_path: "image/jpeg,image/gif,image/png"
+  size: 50
+  image_type: ["image/jpeg", "image/gif", "image/png"]
+  resize_to_limit: [500, 500]
+  image_size: 5
+user_info:
+  size: 50

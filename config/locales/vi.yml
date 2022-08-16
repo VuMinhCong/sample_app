@@ -33,6 +33,8 @@ vi:
       app: "Ứng dụng mẫu "
       vn: "Tiếng Việt"
       el: "Tiếng Anh"
+      micropost_feed: "Các bài đăng"
+      rails_href: "Hướng dẫn Ruby on Rails"
     help:
       heading: "Hỗ  trợ"
       intro: "Nhận trợ giúp về  Ruby on Rails tại"
@@ -111,6 +113,13 @@ vi:
     error_messages:
       intro: "Biểu mẫu có"
       error: "lỗi"
+    micropost_form:
+      new_micropost: "Hãy viết bài đăng mới..."
+      post: "Đăng"
+      large_img_error: "Kích cỡ tối đa của ảnh là 5MB, hãy chọn ảnh nhỏ hơn."
+    user_info:
+      view_my_profile: "Xem bài đăng của tôi"
+      micropost: "bài đăng"
   account_activations:
     edit:
       user_success: "Tài khoản đã được kích hoạt"
@@ -138,3 +147,25 @@ vi:
     create:
       invalid_email_password_combination: "Email và password không trùng khớp"
       account_not_actived: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
+  microposts:
+    create:
+      not_log_in: "Hãy đăng nhập"
+      save_success: "Bài viết đã được tạo"
+    destroy:
+      micropost_deleted: "Bài viết đã bị xóa"
+      not_micropost_deleted: "Không thể xóa bài viết"
+    micropost:
+      posted: "Bài viết được đăng"
+      ago: "trước."
+      delete: "Xóa"
+      you_sure: "Bạn chắc chứ?"
+    find_micropost:
+      find_micropost_fail: "Không thể tìm thấy micropost"
+activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              wrong_format: "Phải là định dạng hình ảnh hợp lệ"
+              too_big: "Kích thước hình ảnh quá lớn"

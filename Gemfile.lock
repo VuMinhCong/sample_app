@@ -39,6 +39,8 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.1, >= 1.2.0)
+    active_storage_validations (0.8.2)
+      rails (>= 5.2.0)
     activejob (6.1.6.1)
       activesupport (= 6.1.6.1)
       globalid (>= 0.3.6)
@@ -134,6 +136,9 @@ GEM
       activesupport (>= 5.0)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
+    image_processing (1.9.3)
+      mini_magick (>= 4.9.5, < 5)
+      ruby-vips (>= 2.0.13, < 3)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
@@ -149,6 +154,7 @@ GEM
     marcel (1.0.2)
     matrix (0.4.2)
     method_source (1.0.0)
+    mini_magick (4.9.5)
     mini_mime (1.1.2)
     minitest (5.16.2)
     msgpack (1.5.4)
@@ -246,6 +252,8 @@ GEM
       rack (>= 1.1)
       rubocop (>= 1.7.0, < 2.0)
     ruby-progressbar (1.11.0)
+    ruby-vips (2.1.4)
+      ffi (~> 1.12)
     rubyzip (2.3.2)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -307,6 +315,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  active_storage_validations (= 0.8.2)
   bcrypt (= 3.1.13)
   bootsnap (>= 1.4.4)
   bootstrap-sass (= 3.4.1)
@@ -315,8 +324,10 @@ DEPENDENCIES
   config
   faker (= 2.22.0)
   figaro
+  image_processing (= 1.9.3)
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  mini_magick (= 4.9.5)
   mysql2 (~> 0.5)
   net-imap
   net-pop
