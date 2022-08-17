@@ -82,6 +82,17 @@ vi:
       user_deleted: "Đã xóa người dùng"
       delete_fail: "Xóa người dùng thất bại"
       incorrect_admin: "Bạn không phải là admin"
+    following:
+      following: "Đang theo dõi"
+    followers:
+      followers: "Người theo dõi"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    show_follow:
+      microposts: "Các bài đăng"
+      view_profile: "Xem hồ sơ"
     user:
       delete: "xóa"
       comfirm: "Bạn chắc chắn muốn xóa ?"
@@ -120,6 +131,9 @@ vi:
     user_info:
       view_my_profile: "Xem bài đăng của tôi"
       micropost: "bài đăng"
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
   account_activations:
     edit:
       user_success: "Tài khoản đã được kích hoạt"
@@ -161,6 +175,11 @@ vi:
       you_sure: "Bạn chắc chứ?"
     find_micropost:
       find_micropost_fail: "Không thể tìm thấy micropost"
+  relationships:
+    find_user_for_create:
+      not_found: "User not found"
+    find_user_for_destroy:
+      not_found: "User not found"
 activerecord:
     errors:
       models:
